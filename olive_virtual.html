@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual - Productos Únicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛍️ Nuestra Tienda Virtual</h1>
+        <button id="cart-button" class="cart-btn">
+            <i class="fas fa-shopping-cart"></i> Carrito (<span id="cart-count">0</span>)
+        </button>
+    </header>
+
+    <main class="products-container">
+        
+        <div class="product-box" data-product-name="Audífonos Bluetooth">
+            <h2>🎧 Aceite Esencial</h2>
+            <div class="etiqueta">
+                <img src="etiqueta.png" alt="Audífonos Inalámbricos" class="product-img active-img">
+                <img src="etiqueta.png" alt="Audífonos de Color Negro" class="product-img">
+            </div>
+            <p class="description">**Audífonos Bluetooth 5.0:** Sonido nítido y batería de larga duración. Ideales para el deporte y el día a día.</p>
+            <span class="price">$45.00</span>
+            <div class="actions">
+                <button class="add-to-cart-btn">Añadir al Carrito</button>
+                <a href="https://wa.me/XXXXXXXXXX?text=Hola,%20me%20interesa%20el%20producto%20Audífonos%20Bluetooth" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Preguntar
+                </a>
+            </div>
+        </div>
+
+        <div class="product-box" data-product-name="Lámpara LED">
+            <h2>🏠 Hogar y Decoración</h2>
+            <div class="image-gallery">
+                <img src="img/prod2-a.jpg" alt="Lámpara de Escritorio" class="product-img active-img">
+                <img src="img/prod2-b.jpg" alt="Detalle de Base de Lámpara" class="product-img">
+            </div>
+            <p class="description">**Lámpara LED Minimalista:** Diseño moderno con tres niveles de brillo. Perfecta para cualquier escritorio.</p>
+            <span class="price">$25.50</span>
+            <div class="actions">
+                <button class="add-to-cart-btn">Añadir al Carrito</button>
+                <a href="https://wa.me/XXXXXXXXXX?text=Hola,%20me%20interesa%20el%20producto%20Lámpara%20LED" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Preguntar
+                </a>
+            </div>
+        </div>
+        
+        <div class="product-box" data-product-name="Reloj Clásico">
+            <h2>⌚ Accesorios de Moda</h2>
+            <div class="image-gallery">
+                <img src="etiqueta.png" alt="Reloj de Cuero Clásico" class="product-img active-img">
+                <img src="etiqueta.png" alt="Reloj en la muñeca" class="product-img">
+            </div>
+            <p class="description">**Reloj de Cuero Clásico:** Elegante, resistente al agua y con movimiento de cuarzo japonés.</p>
+            <span class="price">$89.99</span>
+            <div class="actions">
+                <button class="add-to-cart-btn">Añadir al Carrito</button>
+                <a href="https://wa.me/XXXXXXXXXX?text=Hola,%20me%20interesa%20el%20producto%20Reloj%20Clásico" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Preguntar
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
